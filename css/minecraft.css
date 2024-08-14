@@ -59,14 +59,16 @@
 }
 .wrapper{
     display:flex;
+    flex-wrap: wrap;
     width:70%;
     justify-content: space-around;
     
 }
 .card{
-    margin:10px;
+    margin:25px;
     width: 280px;
     height:360px;
+    border-radius: 20px;
     padding: 2rem 1rem;
     background:#141414bf;
     position: relative;
@@ -87,6 +89,7 @@
     display: block;
     width:100%;
     height:100%;
+    border-radius: 20px;
     background: linear-gradient(to bottom, rgba(12, 14, 13, 0.5),rgb(56, 57, 54));
     z-index:2;
     transition: 0.5s all;
